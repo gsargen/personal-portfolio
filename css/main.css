@@ -87,6 +87,9 @@ footer {
   font-weight: 500; }
 
 .heroSection p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.45em;
+  line-height: 1.45em;
   width: 80%; }
 
 /*# sourceMappingURL=main.css.map */

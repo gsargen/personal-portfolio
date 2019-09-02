@@ -9,6 +9,12 @@ $fontFamilyBody: 'Josefin Sans', sans-serif;
   line-height: 13vw;
 }
 
+@mixin typescaleSmallHeading {
+  font-family: $fontFamilyHeadings;
+  font-size: 1.45em;
+  line-height: 1.45em;
+}
+
 @mixin typescaleBody1 {
   font-family: $fontFamilyBody;
   font-size: 1em;

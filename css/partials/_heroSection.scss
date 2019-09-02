@@ -1,5 +1,7 @@
 .heroSection {
   p {
+    @include typescaleSmallHeading;
     width: 80%;
+
   }
 }
