@@ -1,0 +1,42 @@
+a {
+  color: $colorAffordance;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 200ms;
+}
+
+a:hover {
+    color: $colorGuidance;
+  }
+
+body {
+  background-color: $colorGray50;
+  color: $colorGray900;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.75em;
+  @include typescaleBody1;
+  min-height: 100vh;
+}
+
+h1 {
+  @include typescaleLargeHeading;
+  max-width: 85%;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+}
+
+main {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+}
+
+section {
+  box-sizing: border-box;
+  padding: $sizeEnormous;
+}

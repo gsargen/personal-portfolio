@@ -1,0 +1,45 @@
+#mainNav {
+  background-color: rgba(250,250,250,.97);
+  @include boxShadow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: $sizeBig $sizeEnormous;
+
+  a {
+    color: $colorGray900;
+    transition: color 200ms;
+  }
+
+  a:hover {
+    color: $colorGuidance;
+  }
+}
+
+
+.brandContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.navigationLinks {
+  display: flex;
+  justify-content: center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    list-style: none;
+  }
+
+  a {
+    margin: 0 $sizeNano;
+    padding: $sizeSmall $sizeBase;
+  }
+}

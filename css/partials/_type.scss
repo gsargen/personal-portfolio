@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,400i,600,700&display=swap');
+
+$fontFamilyHeadings: 'Josefin Sans', sans-serif;
+$fontFamilyBody: 'Josefin Sans', sans-serif;
+
+@mixin typescaleLargeHeading {
+  font-family: $fontFamilyHeadings;
+  font-size: 9vw;
+  line-height: 13vw;
+}
+
+@mixin typescaleBody1 {
+  font-family: $fontFamilyBody;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+@mixin typescaleCaption {
+  font-family: $fontFamilyBody;
+  font-size: .75em;
+  font-weight: 500;
+}
