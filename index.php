@@ -17,13 +17,11 @@ $pageDescription = "User experience design is so much more than just pushing pix
 
   <main>
     <section class="heroSection">
-      <h1>Digital product designer</h1>
-      <p>Howdy, I'm Greg! Living and working in the Dallas, TX area, I design native mobile apps, enterprise web apps, marketing websites, and tinker with learning front-end programming and Android app development.</p>
+      <h1 class="fadeIn animationDelay1">Digital product designer</h1>
+      <p class="fadeIn animationDelay2">Howdy, I'm Greg! Living and working in the Dallas, TX area, I design native mobile apps, enterprise web apps, marketing websites, and tinker with learning front-end programming and Android app development.</p>
     </section>
 
   </main>
-
-  <?php include_once $_SERVER['DOCUMENT_ROOT']."/gsargent/modules/footer.php"; ?>
 
 </body>
 

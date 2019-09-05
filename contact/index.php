@@ -1,9 +1,9 @@
 <?php
 include_once $_SERVER['DOCUMENT_ROOT']."/gsargent/modules/base-variables-functions.php";
 
-$directoryName = 'home';
-$pageTitle = 'Page Title Here';
-$pageDescription = "Page description here.";
+$directoryName = 'contact';
+$pageTitle = 'Contact';
+$pageDescription = "Looking to collaborate on a project? Let's get in touch!";
 
  ?>
 
